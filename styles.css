@@ -1,0 +1,78 @@
+*{
+  padding: 0px;
+  margin:0px;
+}
+body{
+  font-family: calibri;
+}
+nav{
+  background-color: #efefef;
+  padding: 20px;
+}
+li{
+  display: inline;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  color: #3f3f3f;
+}
+
+section{
+  background-image: url("https://i.pinimg.com/originals/21/39/f7/2139f7198321d95634a5a1b224da0548.jpg");
+	height: 400px;
+	width:100%;
+	background-size: cover;
+	background-position:50% 50%;
+	margin-bottom: 20px;
+	color:white;
+}
+h1{
+  text-align: center;
+  font-size: 36pt;
+  color: rgb(80, 46, 36);
+}
+div.bio{
+  text-align: center;
+}
+div.bio p{
+  font-size: 14pt;
+}
+.intro{
+  display: inline;
+}
+#badmintonimg{
+  width: 8%;
+  float: right;
+  margin-right: 200px;
+}
+h1.title-text{
+  color: #5c6665;
+  margin: 20px;
+}
+h2{
+  text-align: center;
+  color: #1c7987;
+}
+.project-preview-img{
+  width: 80%;
+}
+.project-preview-img:hover{
+  transform: scale(1.02);
+}
+
+.flex-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.flex-container div {
+  padding: 20px;
+}
+div a{
+  font-size: 16pt;
+}
+div a:hover{
+  color:#1c7987;
+}
